@@ -1327,7 +1327,7 @@ const Qc = /* @__PURE__ */ i({
       error: l
     } = el();
     function f() {
-      a.info && s(a.info), a.success && o(a.success), a.warning && n(a.warning), a.errors !== void 0 && Object.keys(a.errors).length > 0 && l(a.errors, a.objectFormat);
+      a.info && s(a.info), a.success && o(a.success), a.warning && n(a.warning), a.errors != null && Object.keys(a.errors).length > 0 && l(a.errors, a.objectFormat);
     }
     return H(f), Y(
       () => a.info,
@@ -1347,7 +1347,7 @@ const Qc = /* @__PURE__ */ i({
     ), Y(
       () => a.errors,
       (_) => {
-        _ !== void 0 && Object.keys(_).length > 0 && l(_, a.objectFormat);
+        _ != null && Object.keys(_).length > 0 && l(_, a.objectFormat);
       }
     ), (_, B) => (r(), p(e(ht), {
       class: h(e(u)("toaster group", a.class)),
